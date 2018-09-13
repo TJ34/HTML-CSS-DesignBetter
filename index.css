@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+
+body {
+    background-color: blue;
+    margin: 20px;
+    color: aliceblue;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 90vw;
+    color: aliceblue;
+    margin-left: 5vw;
+}
+
+.logoName {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+
+.logo {
+    background-color: aliceblue;
+    width: 4vh;
+    height: 4vh;
+    margin-right: 1vw;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin: 0 10vw;
+    font-size: 15px;
+}
+
+.subscribe {
+    width: 13vw;
+    margin: 5vh;
+    border-radius: 20px;
+    background-color: blue;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    font-size: 17px;
+    height: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.invision{
+    width: 15vw;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.presents {
+    transform: rotate(-90deg);
+    height: 100px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.middle{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    background-color: aliceblue;
+    height: 7vh;
+    width: 7vh;
+}
+
+.discover {
+    font-size: 7vh;
+    padding: 5vh 0 7vh 0;
+}
+
+.paragraph {
+    font-size: 20px;
+    padding: 0 18vh 5vh 18vh;
+    line-height: 30px;
+    text-align: center;
+}
+
+.explore {
+    margin-bottom: 18vh;
+    background-color: aliceblue;
+    color: blue;
+    height: 8vh;
+    width: 21vh;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.social {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 1vw;
+}
+
+.socialLinks {
+    background-color: aliceblue;
+    height: 7vh;
+    width: 7vh;
+    margin: 5px 0;
+    border-radius: 50%
+}
